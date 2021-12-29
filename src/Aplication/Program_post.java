@@ -27,7 +27,7 @@ public class Program_post {
 			
 			
 			do {
-			System.out.println("data da mensagem(dd/MM/yyyy):  ");
+			System.out.println("data da  mensagem(dd/MM/yyyy):  ");
 			String date =sc.next();
 			SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
 			Date moment = formato.parse(date);//convertendo de string para data
