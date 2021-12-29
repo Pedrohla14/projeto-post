@@ -19,7 +19,7 @@ public class Program_post {
 			Scanner sc= new Scanner(System.in);
 			
 			
-			List<Post> posts= new ArrayList();
+			List<Post> posts= new ArrayList<>();
 			
 			
 			char confirmacao;
@@ -78,7 +78,7 @@ public class Program_post {
 			for(int i=0;i<posts.size();i++) {
 			System.out.println(posts.get(i));
 			//imprimindo os comentarios 
-			for(int j=0;i<posts.get(i).getLista_comentario().size(); j++) {
+			for(int j=0;j<posts.get(i).getLista_comentario().size(); j++) {
 			System.out.println(posts.get(i).getLista_comentario().get(j));
 			}
 			}

@@ -13,7 +13,7 @@ private String content;
 private Integer likes;
 
 
-private List<Comment> lista_comentario= new ArrayList();
+private List<Comment> lista_comentario= new ArrayList<>();
 
 
 
